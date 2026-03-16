@@ -7,7 +7,7 @@ sequenceDiagram
 
     Note over browser: clicks the "Save" button
 
-    Note over browser: The browser intercepts the form submission
+
 
     Note over browser: The JS code adds new note to the internal notes list and on the page
 
