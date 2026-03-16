@@ -18,12 +18,10 @@ sequenceDiagram
     server-->>browser: the JavaScript file
     deactivate server
 
-    Note over browser: The browser starts executing the JavaScript code
-    Note over browser: The JS code fetches the JSON data from the server
 
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     activate server
     server-->>browser: [{ "content": "SPA is different", "date": "2024-01-01" }, ... ]
     deactivate server
 
-    Note over browser: The browser executes the callback function that renders the notes
+
